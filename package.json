@@ -1,7 +1,7 @@
 {
     "name": "my-app-new2",
     "version": "0.1.0",
-    "homepage": "https://equaljustice.github.io/payment",
+    "homepage": "https://equaljustice.github.io/payments",
     "private": true,
     "dependencies": {
         "@testing-library/jest-dom": "^5.17.0",
