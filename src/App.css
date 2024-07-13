@@ -1,38 +1,65 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    text-align: center;
+    /* Center text horizontally */
+    display: flex;
+    /* Enable flexbox */
+    justify-content: center;
+    /* Center content horizontally */
+    align-items: center;
+    /* Center content vertically */
+    height: 100vh;
+    /* Full height of the viewport */
+    background-color: #fff;
+    /* Background color */
+    color: #333;
+    /* Text color */
+    font-family: Arial, sans-serif;
+    /* Font family */
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    width: 100%;
+    /* Full width */
+    max-width: 600px;
+    /* Maximum width of the content */
+    margin: auto;
+    /* Center the header horizontally */
+    padding: 20px;
+    text-align: center;
+    /* Ensure text is centered within the header */
+    border: 1px solid #e7e7e7;
+    /* Subtle border */
+    border-radius: 5px;
+    /* Rounded corners */
+    background-color: #f8f8f8;
+    /* Light gray background */
 }
 
 .App-link {
-  color: #61dafb;
+    display: inline-block;
+    /* Make the button inline */
+    padding: 10px 20px;
+    /* Padding inside the button */
+    margin-top: 20px;
+    /* Space above the button */
+    background-color: #6200ea;
+    /* Button color */
+    color: #fff;
+    /* Text color in the button */
+    border: none;
+    /* No border */
+    border-radius: 5px;
+    /* Rounded corners for the button */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    text-decoration: none;
+    /* No underline */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.payment-details {
+    background-color: #fafafa;
+    /* Very light gray background */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
 }
